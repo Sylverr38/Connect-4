@@ -1,0 +1,32 @@
+.grid{
+    border: 3px solid black;
+    height: 600px;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.grid div{
+    height: 100px;
+    width: 100px;
+}
+
+.player-one{
+    background-color: red;
+    border-radius: 50px;
+}
+
+.player-two{
+    background-color: black;
+    border-radius: 50px;
+}
+
+body{
+    text-align: center;
+    font-family: stencil, fantasy;
+    background-color: cyan;
+}
